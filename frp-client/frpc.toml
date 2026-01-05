@@ -20,4 +20,4 @@ customDomains = ["your_domain"]
 transport.useEncryption = true
 transport.useCompression = true
 localPort = 8123
-localIP = "172.30.33.1"
+localIP = "172.30.32.1"
