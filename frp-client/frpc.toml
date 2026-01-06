@@ -15,9 +15,10 @@ webServer.password = "123456789"
 
 [[proxies]]
 name = "your_proxy_name"
-type = "http"
-customDomains = ["your_domain"]
+type = "tcp"
+#customDomains = ["your_domain"]
 transport.useEncryption = true
 transport.useCompression = true
 localPort = 8123
+remotePort = 18123
 localIP = "172.30.32.1"
